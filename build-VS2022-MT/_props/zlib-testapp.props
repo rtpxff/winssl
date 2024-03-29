@@ -2,13 +2,13 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <ZLIB_INC_DIR>..\..\..\..\zlib-win-build\</ZLIB_INC_DIR>
+    <ZLIB_INC_DIR>..\..\..\..\zlib\</ZLIB_INC_DIR>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Platform)'=='Win32'" Label="UserMacros">
-    <ZLIB_LIB_DIR>..\..\..\..\zlib-win-build\$(BUILD_VSENV)\$(Configuration)\</ZLIB_LIB_DIR>
+    <ZLIB_LIB_DIR>..\..\..\..\zlib\$(BUILD_VSENV)\$(Configuration)\</ZLIB_LIB_DIR>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Platform)'=='x64'" Label="UserMacros">
-    <ZLIB_LIB_DIR>..\..\..\..\zlib-win-build\$(BUILD_VSENV)\$(Platform)\$(Configuration)\</ZLIB_LIB_DIR>
+    <ZLIB_LIB_DIR>..\..\..\..\zlib\$(BUILD_VSENV)\$(Platform)\$(Configuration)\</ZLIB_LIB_DIR>
   </PropertyGroup>
   <ItemDefinitionGroup />
   <ItemGroup>
